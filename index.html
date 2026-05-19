@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>Career Compass</title>
+
+    <link rel="stylesheet"
+        href="style.css">
+</head>
+
+<body>
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+
+        <h2 class="logo">
+            Career Compass
+        </h2>
+
+        <nav>
+            <ul>
+
+                <li>
+                    <a href="#home">
+                        🏠 Dashboard
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#tracker">
+                        💼 Internships
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#skills">
+                        📈 Skills
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#ai">
+                        🤖 AI Insights
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#contact">
+                        📞 Contact
+                    </a>
+                </li>
+
+            </ul>
+        </nav>
+
+    </aside>
+
+    <!-- Main -->
+    <main class="main-content">
+
+        <!-- Hero -->
+        <section
+            class="hero"
+            id="home">
+
+            <div class="hero-overlay">
+
+                <h1>
+                    Track Your Career Journey
+                    Smarter 🚀
+                </h1>
+
+                <p>
+                    Career Compass helps
+                    students manage internships,
+                    improve technical skills
+                    and stay career-ready.
+                </p>
+
+                <button
+                    onclick="scrollToTracker()">
+
+                    Explore Dashboard
+
+                </button>
+
+            </div>
+
+        </section>
+
+        <!-- Hover Cards -->
+        <section class="feature-grid">
+
+            <div class="feature-card">
+
+                <img
+                src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1000"
+                alt="career">
+
+                <div class="feature-content">
+
+                    <h3>
+                        Internship Tracking
+                    </h3>
+
+                    <p>
+                        Track all internship
+                        applications in one
+                        place.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="feature-card">
+
+                <img
+                src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=1000"
+                alt="dashboard">
+
+                <div class="feature-content">
+
+                    <h3>
+                        Smart Analytics
+                    </h3>
+
+                    <p>
+                        Monitor progress
+                        with insights.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Tracker -->
+        <section
+            class="tracker glass"
+            id="tracker">
+
+            <h2>
+                Internship Tracker
+            </h2>
+
+            <input
+                type="text"
+                id="company"
+                placeholder="Enter Company Name">
+
+            <select id="status">
+
+                <option>Applied</option>
+                <option>Interview</option>
+                <option>Rejected</option>
+                <option>Selected</option>
+
+            </select>
+
+            <button
+                onclick="addInternship()">
+
+                Add Internship
+
+            </button>
+
+            <div
+                id="internshipList">
+            </div>
+
+        </section>
+
+        <!-- Skills -->
+        <section
+            class="glass"
+            id="skills">
+
+            <h2>
+                Skill Progress
+            </h2>
+
+            <p>HTML</p>
+            <progress
+                value="75"
+                max="100"></progress>
+
+            <p>CSS</p>
+            <progress
+                value="60"
+                max="100"></progress>
+
+            <p>JavaScript</p>
+            <progress
+                value="30"
+                max="100"></progress>
+
+        </section>
+
+        <!-- AI -->
+        <section
+            class="glass"
+            id="ai">
+
+            <h2>
+                🤖 AI Insights
+            </h2>
+
+            <p id="aiText">
+                Focus on JavaScript
+                and portfolio building
+                this week.
+            </p>
+
+        </section>
+
+        <!-- Contact -->
+        <footer
+            class="glass"
+            id="contact">
+
+            <h2>
+                Contact
+            </h2>
+
+            <p>
+                📧 support@careercompass.com
+            </p>
+
+            <p>
+                📞 +91 9876543210
+            </p>
+
+        </footer>
+
+    </main>
+
+<script src="script.js"></script>
+
+</body>
+</html>
