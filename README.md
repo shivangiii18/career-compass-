@@ -20,18 +20,7 @@ Career Compass is a responsive frontend web application designed to help student
 - Git
 - GitHub
 
-## 📂 Project Structure
-
-```text
-Career-Compass/
-├── index.html
-├── style.css
-├── script.js
-├── images/
-└── README.md
-```
-
-## 🎯 Project Objective
+Project Objective
 
 The objective of Career Compass is to simplify the internship and career planning process for students by providing a clean, responsive, and user-friendly interface that helps them stay organized and monitor their professional growth.
 
@@ -51,9 +40,6 @@ git clone https://github.com/your-username/Career-Compass.git
 
 **Live Website:** https://career-compass-dun.vercel.app/
 
-## 📸 Preview
-
-> Add screenshots of the application here.
 
 ## 🔮 Future Enhancements
 
@@ -63,8 +49,4 @@ git clone https://github.com/your-username/Career-Compass.git
 - Personalized internship recommendations
 - Progress analytics dashboard
 
-## 👩‍💻 Author
 
-**Shivangi Sharma**
-
-If you found this project useful, consider giving it a ⭐ to support the project.
